@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Punisher</title>
+    <style>
+        body {
+            background-color: #CAE5DC;
+        }
+        .skull {
+            /* background-color: #fff; */
+            width: 140px;
+            height: 233px;
+            position: relative;
+            top: 32px;
+            left: 50%;
+            translate: -50%;
+        }
+        .head {
+            background: #000000;
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+        }
+        .eye {
+            width: 45px;
+            height: 23px;
+            background-color: #CAE5DC;
+            position: absolute;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        .eye.left{
+            top: 79px;
+            left: 10px;
+            rotate: 28deg
+        }
+        .eye.right{
+            top: 79px;
+            left: 85px;
+            rotate: -28deg
+        }
+        .nose {
+            z-index: 1;
+            position: absolute;
+            top: 96px;
+            left: 58px;
+            width: 0;
+            height: 0;
+            border-left: 11px solid;
+            border-right: 11px solid;
+            border-bottom: 30px solid #CAE5DC;
+        }
+        .mouth {
+            background: #000000;
+            width: 100px;
+            height: 30px;
+            position: absolute;
+            left: 20px;
+            top: 110px;
+        }
+        .tooth {
+            background: #000000;
+            width: 16px;
+            height: 123px;
+            position: absolute;
+        }
+        .tooth.one {
+            left: 32px;
+            top: 110px;
+        }
+        .tooth.two {
+            left: 52px;
+            top: 110px;
+        }
+        .tooth.three {
+            left: 72px;
+            top: 110px;
+        }
+        .tooth.four {
+            left: 92px;
+            top: 110px;
+        }
+    </style>
+</head>
+<body>
+    <div class="skull">
+        <div class="head">
+            <div class="eye left"></div>
+            <div class="eye right"></div>
+            <div class="nose"></div>
+        </div>
+        <div class="mouth"></div>
+        <div class="tooth one"></div>
+        <div class="tooth two"></div>
+        <div class="tooth three"></div>
+        <div class="tooth four"></div>
+    </div>
+</body>
+</html>

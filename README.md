@@ -21,3 +21,6 @@ Each battle's solution is stored in a separate folder named after the battle. Wi
 
 #### Green Lantern Logo
 <img src="green-lantern-logo/screenshot.png" height="300px" alt="Green Lantern Logo">
+
+#### Punisher
+<img src="punisher/screenshot.png" height="300px" alt="punisher">
