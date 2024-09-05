@@ -24,3 +24,6 @@ Each battle's solution is stored in a separate folder named after the battle. Wi
 
 #### Punisher
 <img src="punisher/screenshot.png" height="300px" alt="punisher">
+
+#### Daily 050924
+<img src="daily_050924/screenshot.png" height="300px" alt="Daily 050924">
