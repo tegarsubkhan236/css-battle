@@ -17,4 +17,7 @@ Each battle's solution is stored in a separate folder named after the battle. Wi
 
 ## Screenshots
 #### Deadpool
-<img src="deadpool/screenshot.png" alt="deadpool" height="300px">
+<img src="deadpool/screenshot.png" height="300px" alt="Deadpool">
+
+#### Green Lantern Logo
+<img src="green-lantern-logo/screenshot.png" height="300px" alt="Green Lantern Logo">

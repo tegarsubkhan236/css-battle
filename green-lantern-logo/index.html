@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Green Lantern Logo</title>
+    <style>
+        body {
+            background-color: #70CEAF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .outer-circle  {
+            background-color: #0E532F;
+            width: 280px;
+            height: 280px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .middle-circle {
+            background-color: #70CEAF;
+            width: 230px;
+            height: 230px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .inner-circle {
+            background-color: #0E532F;
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .small-circle {
+            background-color: #70CEAF;
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+        }
+        .bar {
+            position: absolute;
+            width: 140px;
+            height: 25px;
+            background-color: #0E532F;
+        }
+        .bar.top {
+            top: 70px;
+        }
+        .bar.bottom {
+            bottom: 70px;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer-circle">
+        <div class="middle-circle">
+            <div class="bar top"></div>
+            <div class="inner-circle">
+                <div class="small-circle"></div>
+            </div>
+            <div class="bar bottom"></div>
+        </div>
+    </div>
+</body>
+</html>
