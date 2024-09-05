@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Deadpool</title>
+    <style>
+        body {
+            background-color: #F3AC3C;
+        }
+        .head-wrapper {
+            background: #9F3333;
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            position: absolute;
+            top: 54px;
+            left: 100px
+        }
+        .face-wrapper {
+            background-color: #000000;
+            height: 166px;
+            width: 166px;
+            border-radius: 100%;
+            position: absolute;
+            left: 18px;
+            top: 50%;
+            translate: 0 -50%;
+        }
+        .separator {
+            background-color: #9F3333;
+            height: 100%;
+            width: 36px;
+            position: absolute;
+            left: 50%;
+            translate: -50%
+        }
+        .eye {
+            background-color: #FFFFFF;
+            height: 15px;
+            width: 30px;
+            border-bottom-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            position: absolute;
+            top: 79px;
+            translate: 0 -50%;
+
+        }
+        .eye.left {
+            left: 18px;
+            rotate: 28deg;
+        }
+        .eye.right {
+            right: 20px;
+            rotate: -28deg;
+        }
+    </style>
+</head>
+<body>
+    <div class="head-wrapper">
+        <div class="face-wrapper">
+            <div class="separator"></div>
+            <div class="eye left"></div>
+            <div class="eye right"></div>
+        </div>
+    </div>
+</body>
+</html>
