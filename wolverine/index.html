@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        html {
+            background-color: #373794;
+        }
+        .head {
+            width: 75px;
+            height: 67px;
+        }
+        .head.top{
+            margin: 87px auto;
+            background-color: #F3AC3C;
+            border-radius: 60px 60px 0 0;
+        }
+        .eye {
+            width: 110px;
+            height: 70px;
+            background-color: #0E0E39;
+            position: absolute;
+        }
+        .eye.left {
+            top: 105px;
+            left: 95px;
+            border-radius: 0 100px 0 100px;
+        }
+        .eye.left > .inner {
+            width: 30px;
+            height: 20px;
+            background-color: #FFFFFF;
+            border-radius: 0 30px 0 30px;
+            position: absolute;
+            top: 42px;
+            left: 70px;
+            z-index: 1;
+        }
+        .eye.right {
+            top: 105px;
+            left: 190px;
+            border-radius: 100px 0 100px 0;
+        }
+        .eye.right > .inner {
+            width: 30px;
+            height: 20px;
+            background-color: #FFFFFF;
+            border-radius: 30px 0 30px 0;
+            position: absolute;
+            top: 42px;
+            left: 15;
+            z-index: 1;
+        }
+        .head.bottom{
+            margin: -90px auto;
+            background-color: #0E0E39;
+            border-radius: 0 0 60px 60px;
+        }
+        .mouth {
+            width: 55px;
+            height: 50px;
+            background-color: #F3AC3C;
+            position: absolute;
+            bottom: 73px;
+            left: 173px;
+            border-radius: 0 0 60px 60px;
+        }
+        .mouth > .inner {
+            width: 40px;
+            height: 20px;
+            background-color: #FFFFFF;
+            position: absolute;
+            top: 15px;
+            left: 8px;
+            border-radius: 20px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="head top">
+        <div class="eye left">
+            <div class="inner"></div>
+        </div>
+        <div class="eye right">
+            <div class="inner"></div>
+        </div>
+    </div>
+    <div class="head bottom">
+        <div class="mouth">
+            <div class="inner"></div>
+        </div>
+    </div>
+</body>
+</html>
