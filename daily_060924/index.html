@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #328FC1;
+        }
+        .box {
+            width:  160px;
+            height: 135px;
+            margin: 82px 110px;
+            position: relative;
+        }
+        .top, .bottom {
+            width: 143px;
+            height: 76px;
+            background-color: #FADE8B;
+            position: absolute;
+            left: 10px;
+            top: 30px;
+        }
+        .top {
+            rotate: 31deg;
+            border-radius: 0 0 35px 0;
+        }
+        .bottom {
+            transform: rotate(-31deg);
+            border-radius: 0 35px 0 0;
+        }
+        .eye{
+            width: 10px;
+            height: 10px;
+            border: 6px solid #222222;
+            border-radius: 50%;
+            position: absolute;
+            left: 80%;
+            top: 54%;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="top"></div>
+        <div class="bottom">
+            <div class="eye"></div>
+        </div>
+    </div>
+</body>
+</html>
