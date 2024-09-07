@@ -33,3 +33,6 @@ Each battle's solution is stored in a separate folder named after the battle. Wi
 
 #### Wolverine
 <img src="wolverine/screenshot.png" height="300px" alt="wolverine">
+
+#### Daily 070924
+<img src="daily_070924/screenshot.png" height="300px" alt="Daily 060924">
