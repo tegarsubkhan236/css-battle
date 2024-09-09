@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            background: #FCEBEB;
+        }
+
+        .wrapper {
+            height: 235px;
+            width: 260px;
+            margin: 38px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .love {
+            position: relative;
+            width: 150px;
+            height: 150px;
+            top: 12px;
+            background-color: #E95D29;
+            transform: rotate(-45deg);
+        }
+
+        .love::before,
+        .love::after {
+            content: '';
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background-color: #E95D29;
+            border-radius: 50%;
+        }
+
+        .love::before {
+            top: -78px;
+        }
+
+        .love::after {
+            left: 78px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="love"></div>
+    </div>
+</body>
+</html>

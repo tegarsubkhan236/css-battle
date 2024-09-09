@@ -36,3 +36,6 @@ Each battle's solution is stored in a separate folder named after the battle. Wi
 
 #### Daily 070924
 <img src="daily_070924/screenshot.png" height="300px" alt="Daily 060924">
+
+#### Daily 090924
+<img src="daily_090924/screenshot.png" height="300px" alt="Daily 090924">
