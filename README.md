@@ -16,26 +16,39 @@ Each battle's solution is stored in a separate folder named after the battle. Wi
 - **screenshot.png**: A screenshot of my solution.
 
 ## Screenshots
+
 #### Deadpool
+
 <img src="deadpool/screenshot.png" height="300px" alt="Deadpool">
 
 #### Green Lantern Logo
+
 <img src="green-lantern-logo/screenshot.png" height="300px" alt="Green Lantern Logo">
 
 #### Punisher
+
 <img src="punisher/screenshot.png" height="300px" alt="punisher">
 
 #### Daily 050924
+
 <img src="daily_050924/screenshot.png" height="300px" alt="Daily 050924">
 
 #### Daily 060924
+
 <img src="daily_060924/screenshot.png" height="300px" alt="Daily 060924">
 
 #### Wolverine
+
 <img src="wolverine/screenshot.png" height="300px" alt="wolverine">
 
 #### Daily 070924
+
 <img src="daily_070924/screenshot.png" height="300px" alt="Daily 060924">
 
 #### Daily 090924
+
 <img src="daily_090924/screenshot.png" height="300px" alt="Daily 090924">
+
+#### Daily 100924
+
+<img src="daily_100924/screenshot.png" height="300px" alt="Daily 100924">
